@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ясин — cybersecurity student</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="blueprint-grid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="index.html" class="mark">Я</a>
+  <nav>
+    <a href="index.html" class="active">главная</a>
+    <a href="about.html">обо мне</a>
+    <a href="resume.html">резюме</a>
+    <a href="#contact">контакты</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="tag">Алматы, Казахстан</p>
+      <h1>Ясин.<br>Изучаю кибербезопасность<br>изнутри сети.</h1>
+      <p class="hero-lede">
+        Студент направления кибербезопасности. Разбираюсь в том, как устроены сети,
+        по каким правилам они защищаются и что происходит, когда защита не срабатывает.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">CCNA</span>
+          <span class="stat-label">уровень сетевой подготовки</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">GRC</span>
+          <span class="stat-label">SOX · HIPAA · CCPA/CPRA</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">FinTech</span>
+          <span class="stat-label">смежная область интереса</span>
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-diagram" viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <line x1="210" y1="80" x2="90" y2="200" class="link"/>
+      <line x1="210" y1="80" x2="330" y2="200" class="link"/>
+      <line x1="90" y1="200" x2="210" y2="330" class="link"/>
+      <line x1="330" y1="200" x2="210" y2="330" class="link"/>
+      <line x1="90" y1="200" x2="330" y2="200" class="link link-dim"/>
+      <line x1="210" y1="80" x2="210" y2="330" class="link link-dim"/>
+
+      <g class="node node-accent">
+        <circle cx="210" cy="80" r="14"/>
+        <text x="210" y="55">core</text>
+      </g>
+      <g class="node">
+        <circle cx="90" cy="200" r="11"/>
+        <text x="90" y="178">sw-1</text>
+      </g>
+      <g class="node">
+        <circle cx="330" cy="200" r="11"/>
+        <text x="330" y="178">sw-2</text>
+      </g>
+      <g class="node node-accent">
+        <circle cx="210" cy="330" r="14"/>
+        <text x="210" y="358">edge</text>
+      </g>
+    </svg>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Обо мне</h2>
+    <div class="about-body">
+      <p>
+        Учусь на направлении кибербезопасности и параллельно закрываю фундамент,
+        без которого эта область не работает: электротехнику, сетевую инженерию
+        и управление IT-сервисами. Мне важно понимать не только «как атаковать
+        или защищать», но и на чём вообще держится инфраструктура — от переменного
+        тока в цепи до IP-адресации в сети.
+      </p>
+      <p>
+        Отдельно смотрю в сторону FinTech и бизнеса — как области, где кибербезопасность
+        перестаёт быть абстрактной темой и превращается в конкретную ответственность
+        за чужие деньги и данные.
+      </p>
+    </div>
+  </section>
+
+  <section id="map" class="skills">
+    <h2>Чем занимаюсь на учёбе</h2>
+    <div class="module-grid">
+
+      <article class="module">
+        <span class="module-tag">net</span>
+        <h3>Сетевая инженерия</h3>
+        <p>
+          Материал уровня CCNA: IP-адресация, маршрутизация, TCP/UDP, DNS/DHCP,
+          HSRP, IPv6 Neighbor Discovery, правила межсетевых экранов, IDS/IPS,
+          настройка Cisco IOS. Лабораторная работа — настройка сетевой защиты
+          для условной компании.
+        </p>
+      </article>
+
+      <article class="module">
+        <span class="module-tag">ee</span>
+        <h3>Электротехника</h3>
+        <p>
+          Последовательные резонансные цепи: импеданс, добротность, полоса
+          пропускания, амплитудно- и фазочастотные характеристики. Анализ
+          синусоидальных сигналов — период, частота, фазовый угол по
+          временны́м графикам.
+        </p>
+      </article>
+
+      <article class="module">
+        <span class="module-tag">grc</span>
+        <h3>IT service management и compliance</h3>
+        <p>
+          Процессы ITIL и фреймворки управления рисками и соответствия:
+          SOX, HIPAA, CCPA, CPRA. Разбираюсь, как выстраивается контроль
+          над IT-услугами на уровне организации, а не только на уровне сети.
+        </p>
+      </article>
+
+      <article class="module">
+        <span class="module-tag">dev</span>
+        <h3>Инструменты разработки</h3>
+        <p>
+          Начинаю разбираться в Git и GitHub — работа с репозиториями,
+          разница между системой контроля версий и платформой, видимость
+          публичного кода. Смотрю в сторону инструментов разработки
+          и концепций кибербезопасности за пределами программы.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="interests" class="interests">
+    <h2>Что интересно за пределами программы</h2>
+    <p>
+      Смотрю на кибербезопасность не изолированно, а в связке с бизнесом
+      и финтехом — как области, где технические решения напрямую влияют
+      на деньги, доверие и репутацию. Также слежу за игровыми
+      и стриминговыми платформами, включая облачный гейминг и его
+      доступность в Казахстане.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Контакты</h2>
+    <p class="contact-lede">Открыт к учебным проектам, стажировкам и просто разговору по теме.</p>
+    <div class="contact-links">
+      <a href="mailto:your.email@example.com">your.email@example.com</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin.com/in/yourusername</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>Ясин · Алматы</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
